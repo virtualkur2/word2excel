@@ -28,4 +28,4 @@ La idea es que cada nuevo texto (podria identificarse por la aparicion de la cad
 
 Espero sepan entender una pregunta excepcional en un momento excepcional.
 
-[1](https://es.stackoverflow.com/questions/338584/automatizar-carga-de-documento-pasar-de-word-a-excel-o-similar/338607#338607)
+[1]: https://es.stackoverflow.com/questions/338584/automatizar-carga-de-documento-pasar-de-word-a-excel-o-similar/338607#338607
