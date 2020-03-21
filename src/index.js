@@ -36,6 +36,7 @@ const createWorkBook = function(dataList) {
   dataList.forEach(data => {
     dataSheet.addRow({PU: data.PU, Alta: data.Alta, Fecha: data.Fecha});
   });
+  // verificar el nombre de salida del archivo
   wb.xlsx.writeFile(path.join(__dirname,'test.xlsx'))
   .then(() => {
     console.log('Done');
@@ -70,7 +71,7 @@ const parseResult = function(resultsList) {
   createWorkBook(data);
 }
 
-
+// nombre del archivo de entrada
 const fileToParse = path.join(__dirname, 'demo.docx');
 
 wordParser(fileToParse, parseResult);
